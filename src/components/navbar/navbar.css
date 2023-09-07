@@ -1,4 +1,10 @@
 .navbar-app {
-    background: rgb(51,1,85);
-background: linear-gradient(90deg, rgba(51,1,85,1) 0%, rgba(26,0,43,1) 50%, rgba(14,0,23,1) 73%, rgba(0,0,0,1) 100%);
+    background: rgb(190,230,206);
+background: linear-gradient(90deg, rgba(190,230,206,1) 0%, rgba(141,255,205,1) 50%, rgba(104,216,155,1) 73%, rgba(104,216,155,1) 100%);
+display: flex;
+justify-content: flex-end;
+}
+.title{
+    color:black;
+    padding-right:1120px;
 }

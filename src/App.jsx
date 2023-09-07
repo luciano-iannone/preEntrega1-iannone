@@ -1,14 +1,13 @@
 import './App.css'
-import Navbar from './components/navbar/navbar'
 import ItemListContainer from './components/itemListContainer/itemListContainer'
+import Navbar from './components/navbar/navbar'
 
 function App () {
-  const greeting ='Welcome USPS user'
-
+  const greeting = "Welcome USPS user"
   return (
     <>
       <Navbar></Navbar>
-      <ItemListContainer greeting={greeting} />
+      <ItemListContainer greeting={greeting}></ItemListContainer>
     </>
   )
 }
