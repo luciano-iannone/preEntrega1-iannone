@@ -7,6 +7,9 @@ const Navbar = () => {
     return (
         <AppBar sx={{ backgroundColor: "#4F9D69" }}>
             <Toolbar sx={{ display: "flex", justifyContent: "space-around" }}>
+            <Typography>
+                        Gaming Locker
+                </Typography>
                 <NavLink className="navbar-link" to="/">
                     <Typography >
                         Home

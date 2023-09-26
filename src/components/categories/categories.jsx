@@ -10,7 +10,7 @@ const Categories = () => {
 
     return (<div className="container">
         <Typography variant="h2" sytle={{color:"black"}}>
-            Categories
+            Our Products
         </Typography>
         {
             data.map((category) => {

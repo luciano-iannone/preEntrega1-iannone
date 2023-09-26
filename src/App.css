@@ -32,12 +32,12 @@
 
 .image-card {
     width: 233px;
-    max-height: 200px;
+    max-height: 300px;
 }
 
 .card-media {
-    width: 133px;
-    height: 134px;
+    width: 143px;
+    height: 184px;
     object-fit: cover;
     margin-left: 100px;
     margin-top: 10px;
