@@ -1,13 +1,23 @@
 import './App.css'
-import ItemListContainer from './components/itemListContainer/itemListContainer'
-import Navbar from './components/navbar/navbar'
+import Categories from './components/categories/categories'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import ProductList from './components/products/productList'
+import CategoriesProductList from './components/categories/categoriesProductList'
+import Navbar from './components/Navbar/Navbar'
 
-function App () {
-  const greeting = "Welcome USPS user"
+function App() {
+
   return (
     <>
-      <Navbar></Navbar>
-      <ItemListContainer greeting={greeting}></ItemListContainer>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route exact path='/' element={<Categories />} />
+          <Route exact path="/products" element={<ProductList />} />
+          <Route exact path="/category/:categoryId" element={<CategoriesProductList />} />
+        </Routes>
+
+      </Router>
     </>
   )
 }

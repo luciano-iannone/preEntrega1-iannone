@@ -1,28 +1,26 @@
-import {AppBar, Button, Toolbar, Typography} from '@mui/material';
-import './navbar.css';
-import CartWidget from '../cartWidget/cartWidget';
+import { AppBar, Toolbar, Typography } from "@mui/material";
+import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
 
-    return (<AppBar>
-        <Toolbar className='navbar-app'>
-            <h1 className='title'>
-                USPS
-            </h1>
-            <div classname='nav'>
-                <Button sx={{color: "black"}}>
-                    Home
-                </Button>  
-                <Button sx={{color: "black"}}>
-                    Products
-                </Button> 
-                <Button sx={{color:"black"}}>
-                    Categories
-                </Button>
-                <CartWidget />
-            </div>
-        </Toolbar>
-    </AppBar>);
+    return (
+        <AppBar sx={{ backgroundColor: "#4F9D69" }}>
+            <Toolbar sx={{ display: "flex", justifyContent: "space-around" }}>
+                <NavLink className="navbar-link" to="/">
+                    <Typography >
+                        Home
+                    </Typography>
+                </NavLink>
+                <NavLink className="navbar-link" to="/products">
+                    <Typography >
+                        Products
+                    </Typography>
+                </NavLink>
+                <AddShoppingCartIcon />
+            </Toolbar>
+        </AppBar>
+    );
 }
 
 export default Navbar;

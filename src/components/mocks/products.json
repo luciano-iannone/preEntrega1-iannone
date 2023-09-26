@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "image": "a.jpg",
+        "title": "MOUSE 1",
+        "price": 2000,
+        "category": "MOUSES",
+        "itHasDues": true,
+        "isAnOffer": false,
+        "stock": 9
+    },
+    {
+        "id": 2,
+        "image": "a.jpg",
+        "title": "MOUSE 2",
+        "category": "MOUSES",
+        "price": 12000,
+        "itHasDues": false,
+        "isAnOffer": true,
+        "stock": 12
+    },
+    {
+        "id": 3,
+        "image": "a.jpg",
+        "title": "MOUSE 3",
+        "price": 8000,
+        "category": "MOUSES",
+        "itHasDues": true,
+        "isAnOffer": true,
+        "stock": 16
+    },
+    {
+        "id": 4,
+        "image": "a.jpg",
+        "title": "MOUSE 4",
+        "price": 6500,
+        "category": "MOUSES",
+        "itHasDues": false,
+        "isAnOffer": false,
+        "stock": 21
+    },
+    {
+        "id": 5,
+        "image": "a.jpg",
+        "title": "MOUSE 5",
+        "price": 12800,
+        "category": "MOUSES",
+        "itHasDues": true,
+        "isAnOffer": true,
+        "stock": 7
+    },
+    {
+        "id": 6,
+        "image": "a.jpg",
+        "title": "HEADSETS 1",
+        "price": 6200,
+        "category": "HEADSETS",
+        "itHasDues": false,
+        "isAnOffer": false,
+        "stock": 15
+    },
+    {
+        "id": 7,
+        "image": "a.jpg",
+        "title": "HEADSETS 2",
+        "price": 5700,
+        "category": "HEADSETS",
+        "itHasDues": true,
+        "isAnOffer": true,
+        "stock": 32
+    },
+    {
+        "id": 8,
+        "image": "a.jpg",
+        "title": "HEADSETS 3",
+        "price": 9200,
+        "category": "HEADSETS",
+        "itHasDues": false,
+        "isAnOffer": false,
+        "stock": 15
+    },
+    {
+        "id": 9,
+        "image": "a.jpg",
+        "title": "HEADSETS 4",
+        "price": 2500,
+        "category": "HEADSETS",
+        "itHasDues": true,
+        "isAnOffer": true,
+        "stock": 23
+    },
+    {
+        "id": 10,
+        "image": "a.jpg",
+        "title": "HEADSETS 5",
+        "price": 3700,
+        "category": "HEADSETS",
+        "itHasDues": false,
+        "isAnOffer": false,
+        "stock": 20
+    },
+    {
+        "id": 11,
+        "image": "a.jpg",
+        "title": "KEYBOARDS 1",
+        "price": 15000,
+        "category": "KEYBOARDS",
+        "itHasDues": true,
+        "isAnOffer": true,
+        "stock": 18
+    },
+    {
+        "id": 12,
+        "image": "a.jpg",
+        "title": "KEYBOARDS 2",
+        "price": 12000,
+        "category": "KEYBOARDS",
+        "itHasDues": false,
+        "isAnOffer": false,
+        "stock": 12
+    },
+    {
+        "id": 13,
+        "image": "a.jpg",
+        "title": "KEYBOARDS 3",
+        "price": 9200,
+        "category": "KEYBOARDS",
+        "itHasDues": true,
+        "isAnOffer": true,
+        "stock": 16
+    },
+    {
+        "id": 14,
+        "image": "a.jpg",
+        "title": "KEYBOARDS 4",
+        "price": 10000,
+        "category": "KEYBOARDS",
+        "itHasDues": false,
+        "isAnOffer": false,
+        "stock": 25
+    },
+    {
+        "id": 15,
+        "image": "a.jpg",
+        "title": "KEYBOARDS 5",
+        "price": 8100,
+        "category": "KEYBOARDS",
+        "itHasDues": true,
+        "isAnOffer": true,
+        "stock": 11
+    }
+]
