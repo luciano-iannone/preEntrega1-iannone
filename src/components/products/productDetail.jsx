@@ -1,10 +1,20 @@
 import { Card, CardContent, Grid, Typography } from "@mui/material";
 import productInfo from "./productInfo";
-import { useState } from "react";
+import { useEffect,useState } from "react";
+import { collection, doc, getDocs, getFirestore, limit, query} from 'firebase/firestore';
 
 const productDetail = ({ product, children }) => {
     const { id, image, title, price, itHadDues, isAnOffer, stock } = product
+    const [newProduct, setNewProduct] = useState()
     const [isSelected, setIsSelected] = useState(false);
+
+    useEffect(()=>{
+        const db = getFirestore();
+        const productCollection = querycollection(db, 'products');
+        getDocs(productCollection).then((snapshot) => {
+                setNewProduct(snapshot.docs.map((doc) => ({id: doc.id, ...doc.data() })))
+        })
+    }, [])
 
     const handleClick = () => {
         setIsSelected((prev) => !prev)
